@@ -16,7 +16,23 @@
 
 .navbar-ul-mobile {
     display: flex;
+    flex-direction: column;
     font-size: 24px;
+}
+
+.mobile-navbar-hidden {
+    display: none;
+    opacity: 0;
+}
+
+.navbar-button-mobile {
+    display: flex;
+}
+
+.navbar-button-mobile > a {
+    height: 50px;
+    width: 50px;
+    color: black;
 }
 
 $tablet-width: 768px;
@@ -24,8 +40,10 @@ $desktop-width: 1024px;
 
 // @mixin tablet {
   @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
-    .navbar-ul-mobile {
+    .navbar-button-mobile {
         display: flex;
+        height: 50px;
+        width: 50px;
     }
     .navbar-ul-web {
         display: none;
@@ -41,7 +59,7 @@ $desktop-width: 1024px;
     .navbar-ul-web {
         display: flex;
     }
-    .navbar-ul-mobile {
+    .navbar-button-mobile {
         display: none;
     }
   }
