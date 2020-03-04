@@ -1,8 +1,48 @@
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
-.navbar-ul {
-    display: flex;
+.navbar > h1 {
+    font-size: 36px;
 }
+
+.navbar-ul-web {
+    display: flex;
+    font-size: 24px;
+}
+
+.navbar-ul-mobile {
+    display: flex;
+    font-size: 24px;
+}
+
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+// @mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    .navbar-ul-mobile {
+        display: flex;
+    }
+    .navbar-ul-web {
+        display: none;
+    }
+    .navbar > h1 {
+        font-size: 72px;
+    }
+  }
+// }
+
+// @mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    .navbar-ul-web {
+        display: flex;
+    }
+    .navbar-ul-mobile {
+        display: none;
+    }
+  }
+// }

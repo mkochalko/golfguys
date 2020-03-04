@@ -8,7 +8,14 @@ class Navbar extends React.Component {
         return(
             <div className="navbar">
                 <h1>GolfGuys</h1>
-                <ul className="navbar-ul">
+                <ul className="navbar-ul-web">
+                    <li><Link to="/about">About</Link></li>
+                    <li><a href="https://www.linkedin.com/in/mkochalko/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/mkochalko" target="_blank">GitHub</a></li>
+                    <li><Link to="/careers">Careers</Link></li>
+                </ul>
+                <button></button>
+                <ul className="navbar-ul-mobile">
                     <li><Link to="/about">About</Link></li>
                     <li><a href="https://www.linkedin.com/in/mkochalko/" target="_blank">LinkedIn</a></li>
                     <li><a href="https://github.com/mkochalko" target="_blank">GitHub</a></li>
