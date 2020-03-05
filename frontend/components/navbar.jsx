@@ -11,6 +11,7 @@ class Navbar extends React.Component {
     showMobileNav() {
         const mobileNav = document.querySelector(".navbar-ul-container")
         mobileNav.classList.toggle('mobile-navbar-hidden')
+        //test
     }
 
     render() {
