@@ -1,4 +1,4 @@
-import {getTournamentInfo} from '../util/tournament_util';
+import { getTournamentInfo } from '../util/tournament_util';
 
 export const RECEIVE_TOURNAMENT_INFO = 'RECEIVE_TOURNAMENT_INFO'
 
@@ -9,6 +9,8 @@ const receiveTournamentInfo = tournament => ({
 
 
 export const fetchTournamentInfo = dispatch => (
-    getTournamentInfo().then(leaderboard => dispatch(receiveTournamentInfo(leaderboard)))
+    getTournamentInfo().then(leaderboard => {
+        debugger;
+        dispatch(receiveTournamentInfo(leaderboard))})
 )
 
