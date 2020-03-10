@@ -8,7 +8,7 @@ const receiveTournamentInfo = tournament => ({
 })
 
 
-export const fetchTournamentInfo = dispatch => (
+export const fetchTournamentInfo = () => dispatch => (
     getTournamentInfo().then(leaderboard => {
         debugger;
         dispatch(receiveTournamentInfo(leaderboard))})
