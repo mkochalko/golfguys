@@ -3,7 +3,7 @@ import { fetchTournamentInfo } from '../../actions/tournament_actions';
 import TournamentIndex from './tournament_index';
 
 const mapStateToProps = state => ({
-    leaderboard: state.entities.tournament
+    leaderboard: Object.values(state.entities.tournament)
 })
 
 const mapDispatchToProps = dispatch => ({

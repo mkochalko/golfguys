@@ -6,8 +6,8 @@ export default (state = {}, action) => {
     // debugger
     switch (action.type) {
         case RECEIVE_TOURNAMENT_INFO:
-            debugger
-            newState = action.tournament;
+            // debugger
+            newState = action.tournament.players;
             return newState;
         default:
             return state;

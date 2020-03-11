@@ -9,8 +9,6 @@ const receiveTournamentInfo = tournament => ({
 
 
 export const fetchTournamentInfo = () => dispatch => (
-    getTournamentInfo().then(leaderboard => {
-        debugger;
-        dispatch(receiveTournamentInfo(leaderboard))})
+    getTournamentInfo().then(leaderboard => dispatch(receiveTournamentInfo(leaderboard)))
 )
 
