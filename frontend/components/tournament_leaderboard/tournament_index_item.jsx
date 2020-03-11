@@ -8,7 +8,7 @@ class TournamentIndexItem extends React.Component {
     }
 
     render() {
-        console.log(this.props)
+        // console.log(this.props)
         return (
             <div className="tournament-index-item-container">
                 <div className="tournament-index-item-default-show">

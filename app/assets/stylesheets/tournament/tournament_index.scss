@@ -1,0 +1,79 @@
+
+
+$tablet-width: 768px;
+$desktop-width: 1024px;
+$tablet-height: 1400px;
+
+
+
+@media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    
+    
+    .tournament-index-ul-title {
+        display: flex;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .tournament-index-ul {
+        height: 85vh;
+        overflow: auto;
+    }
+
+    .tournament-index-ul-title > h1:first-child {
+        min-width: 20%;
+    }
+
+    .tournament-index-ul-title > h1:nth-child(2) {
+        min-width: 30%;
+    }
+
+    .tournament-index-ul-title > h1:nth-child(3) {
+        min-width: 15%;
+    }
+
+    .tournament-index-ul-title > h1:nth-child(4) {
+        min-width: 15%;
+    }
+
+    .tournament-index-ul-title > h1:nth-child(5) {
+        min-width: 15%;
+    }
+}
+
+
+@media (min-width: #{$desktop-width}) {
+    .tournament-index-container {
+        width: 33vw;
+    }
+    
+    .tournament-index-ul-title {
+        display: flex;
+        text-align: center;
+    }
+
+    .tournament-index-ul {
+        height: 85vh;
+        overflow: auto;
+    }
+
+    .tournament-index-ul-title > h1:first-child {
+        min-width: 75px;
+    }
+
+    .tournament-index-ul-title > h1:nth-child(2) {
+        min-width: 175px;
+    }
+
+    .tournament-index-ul-title > h1:nth-child(3) {
+        min-width: 50px;
+    }
+
+    .tournament-index-ul-title > h1:nth-child(4) {
+        min-width: 50px;
+    }
+
+    .tournament-index-ul-title > h1:nth-child(5) {
+        min-width: 50px;
+    }
+}

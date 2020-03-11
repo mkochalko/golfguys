@@ -15,8 +15,15 @@ class TournamentIndex extends React.Component {
         if (!this.props) return null
         console.log(this.props.leaderboard)
         return (
-            <div>
-                <ul>
+            <div className="tournament-index-container">
+                <div className="tournament-index-ul-title">
+                    <h1>Pos</h1>
+                    <h1>Player</h1>
+                    <h1>To Par</h1>
+                    <h1>Today</h1>
+                    <h1>Through</h1>
+                </div>
+                <ul className="tournament-index-ul">
                     {
                         this.props.leaderboard.length > 0 ? this.props.leaderboard.map((player, idx) => (
                             <li key={idx}><TournamentIndexItem props={player}/></li>
