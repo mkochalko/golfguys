@@ -17,7 +17,7 @@
 .navbar-ul-mobile {
     display: flex;
     flex-direction: column;
-    font-size: 24px;
+    font-size: 12px;
 }
 
 .mobile-navbar-hidden {
@@ -32,20 +32,22 @@
 
 
 $tablet-width: 100px;
-$desktop-width: 700px;
+$desktop-width: 500px;
 $tablet-height: 1400px;
 
 // @mixin tablet {
-  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+  @media screen and (max-width: #{$desktop-width - 1px}) {
+    
+
     .navbar-button-mobile {
         display: flex;
-        height: 75px;
-        width: 75px;
+        height: 35px;
+        width: 35px;
     }
     .navbar-button-mobile-hidden-menu {
         display: flex;
-        height: 75px;
-        width: 75px;
+        height: 35px;
+        width: 35px;
     }
     .navbar-ul-web {
         display: none;
@@ -58,11 +60,11 @@ $tablet-height: 1400px;
         align-items: center;
         color: white;
         padding: 100px;
-        font-size: 100px;
+        font-size: 36px;
     }
 
     .navbar > h1 {
-        font-size: 100px;
+        font-size: 36px;
     }
     .navbar {
         display: flex;
@@ -70,17 +72,18 @@ $tablet-height: 1400px;
         justify-content: space-between;
         align-items: center;
         padding: 50px;
+        width: 100vw;
         border-bottom: 2px solid green;
     }
 
     .navbar-ul-container {
         display: flex;
         position: absolute;
-        padding: 50px;
+        padding: 20px;
         top: 20px;
         right: -15px;
         height: 100vh;
-        width: 900px;
+        width: 100vw;
         // z-index: 5;
         background-color: blue;
         // transition: width 0.3s ease-out, height 1s ease-out;
@@ -102,18 +105,18 @@ $tablet-height: 1400px;
 
     @keyframes mymove {
     from {width: 0px; padding: 0;}
-    to {width: 900px; padding: 50px;}
+    to {width: 100vw; padding: 50px;}
     }
 
     @keyframes myclose {
-    from {width: 900px; padding: 50px;}
+    from {width: 100vw; padding: 50px;}
     to {width: 0px; padding: 0;}
     }
   }
 // }
 
 // @mixin desktop {
-  @media (min-width: #{$desktop-width}) {
+  @media screen and (min-width: #{$desktop-width}) {
     .navbar-ul-web {
         display: flex;
     }

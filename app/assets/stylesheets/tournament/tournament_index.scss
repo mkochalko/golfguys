@@ -1,18 +1,18 @@
 
 
 $tablet-width: 100px;
-$desktop-width: 700px;
+$desktop-width: 500px;
 $tablet-height: 1400px;
 
 
 
-@media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+@media screen and (max-width: #{$desktop-width - 1px}) {
     
     
     .tournament-index-ul-title {
         display: flex;
         text-align: center;
-        font-size: 50px;
+        font-size: 20px;
     }
 
     .tournament-index-ul {
@@ -42,7 +42,7 @@ $tablet-height: 1400px;
 }
 
 
-@media (min-width: #{$desktop-width}) {
+@media screen and (min-width: #{$desktop-width}) {
     .tournament-index-container {
         width: 33vw;
     }
