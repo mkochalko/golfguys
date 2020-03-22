@@ -1,6 +1,6 @@
 class User < ApplicationRecord
     validates :username, :tier1, :tier2, :tier3, :tier4, :tier5, :tier6, presence: true
-    validtes :username, uniqueness: true
+    validates :username, uniqueness: true
 
     belongs_to :player_1,
         primary_key: :id,

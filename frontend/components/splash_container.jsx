@@ -1,5 +1,6 @@
 import React from 'react';
 import TournamentContainer from './tournament_leaderboard/tournament_container';
+import GameContainer from './game_leaderboard/game_container';
 
 class SplashContainer extends React.Component {
 
@@ -8,6 +9,7 @@ class SplashContainer extends React.Component {
         return (
             <div>
                 <TournamentContainer />
+                <GameContainer />
             </div>
         )
     }
