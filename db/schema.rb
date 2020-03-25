@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_21_235359) do
+ActiveRecord::Schema.define(version: 2020_03_25_003329) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,12 +24,12 @@ ActiveRecord::Schema.define(version: 2020_03_21_235359) do
 
   create_table "users", force: :cascade do |t|
     t.string "username", null: false
-    t.integer "tier1", null: false
-    t.integer "tier2", null: false
-    t.integer "tier3", null: false
-    t.integer "tier4", null: false
-    t.integer "tier5", null: false
-    t.integer "tier6", null: false
+    t.string "tier1", null: false
+    t.string "tier2", null: false
+    t.string "tier3", null: false
+    t.string "tier4", null: false
+    t.string "tier5", null: false
+    t.string "tier6", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

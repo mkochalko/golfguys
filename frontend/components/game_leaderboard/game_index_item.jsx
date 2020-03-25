@@ -7,7 +7,7 @@ class GameIndexItem extends React.Component {
 
         return (
             <div>
-
+                <h4>{this.props.user.username}</h4>
             </div>
         )
     }
