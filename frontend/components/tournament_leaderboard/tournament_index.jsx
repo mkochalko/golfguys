@@ -13,7 +13,7 @@ class TournamentIndex extends React.Component {
 
     render() {
         if (!this.props) return null
-        console.log(this.props.leaderboard)
+        // console.log(this.props.leaderboard)
         return (
             <div className="tournament-index-container">
                 <div className="tournament-index-ul-title">

@@ -3,7 +3,8 @@ import { getUsersInfo } from '../../actions/users_actions';
 import GameIndex from './game_index';
 
 const mapStateToProps = state => ({
-    users: Object.values(state.entities.users)
+    users: Object.values(state.entities.users),
+    tournament: state.entities.tournament
 })
 
 const mapDispatchToProps = dispatch => ({
