@@ -12,21 +12,29 @@ $tablet-height: 1400px;
 
 .user-tier-container {
     display: flex;
-    padding: 10px;
 }
 
 .tier-player-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    min-width: 120px;
+}
 
+.tier-player-container > h4 {
+    font-size: 14px;
 }
 
 .tier-player-score-header {
     display: flex;
+    justify-content: space-around;
 }
 
 .tier-player-score {
     display: flex;
+    justify-content: space-around;
+}
+
+.tier-player-details {
+    min-width: 120px;
 }

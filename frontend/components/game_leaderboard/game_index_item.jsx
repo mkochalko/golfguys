@@ -24,7 +24,7 @@ class GameIndexItem extends React.Component {
                 <div className="user-tier-container">
                     <div className="tier-player-container">
                         <h4>{this.state.tier1}</h4>
-                        <div>
+                        <div className="tier-player-details">
                             <div className="tier-player-score-header">
                                 <h4>Today</h4>
                                 <h4>To Par</h4>
@@ -37,7 +37,7 @@ class GameIndexItem extends React.Component {
                     </div>
                     <div className="tier-player-container">
                         <h4>{this.state.tier2}</h4>
-                        <div>
+                        <div className="tier-player-details">
                             <div className="tier-player-score-header">
                                 <h4>Today</h4>
                                 <h4>To Par</h4>
@@ -50,7 +50,7 @@ class GameIndexItem extends React.Component {
                     </div>
                     <div className="tier-player-container">
                         <h4>{this.state.tier3}</h4>
-                        <div>
+                        <div className="tier-player-details">
                             <div className="tier-player-score-header">
                                 <h4>Today</h4>
                                 <h4>To Par</h4>
@@ -63,7 +63,7 @@ class GameIndexItem extends React.Component {
                     </div>
                     <div className="tier-player-container">
                         <h4>{this.state.tier4}</h4>
-                        <div>
+                        <div className="tier-player-details">
                             <div className="tier-player-score-header">
                                 <h4>Today</h4>
                                 <h4>To Par</h4>
@@ -76,7 +76,7 @@ class GameIndexItem extends React.Component {
                     </div>
                     <div className="tier-player-container">
                         <h4>{this.state.tier5}</h4>
-                        <div>
+                        <div className="tier-player-details">
                             <div className="tier-player-score-header">
                                 <h4>Today</h4>
                                 <h4>To Par</h4>
@@ -89,7 +89,7 @@ class GameIndexItem extends React.Component {
                     </div>
                     <div className="tier-player-container">
                         <h4>{this.state.tier6}</h4>
-                        <div>
+                        <div className="tier-player-details">
                             <div className="tier-player-score-header">
                                 <h4>Today</h4>
                                 <h4>To Par</h4>
