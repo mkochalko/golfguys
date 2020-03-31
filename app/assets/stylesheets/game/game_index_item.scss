@@ -12,4 +12,21 @@ $tablet-height: 1400px;
 
 .user-tier-container {
     display: flex;
+    padding: 10px;
+}
+
+.tier-player-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.tier-player-score-header {
+    display: flex;
+}
+
+.tier-player-score {
+    display: flex;
 }
