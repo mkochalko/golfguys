@@ -109,7 +109,7 @@ class GameIndexItem extends React.Component {
                             parseInt(this.props.tournament[this.props.tier4].to_par) +
                             parseInt(this.props.tournament[this.props.tier5].to_par) +
                             parseInt(this.props.tournament[this.props.tier6].to_par)
-                            }</h4>
+                        }</h4>
                     </div>
                 </div>
             </div>
