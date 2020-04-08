@@ -23,11 +23,25 @@ $tablet-height: 1400px;
 
 .tier-player-container > h4 {
     font-size: 14px;
+    border: 1px solid black;
+    width: 120px;
+    text-align: center;
 }
 
 .tier-player-score-header {
     display: flex;
     justify-content: space-around;
+}
+
+.tier-player-score-header > h4{
+    font-size: 14px;
+}
+
+.tier-player-score-header > h4:first-child{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    width: 60px;
+    text-align: center;
 }
 
 .tier-player-score {
