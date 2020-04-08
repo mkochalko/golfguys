@@ -102,14 +102,14 @@ class GameIndexItem extends React.Component {
                     </div>
                     <div className="tier-player-container">
                         <h4>Total Score</h4>
-                        <h4>{
+                        <h5 className="user-total-score">{
                             parseInt(this.props.tournament[this.props.tier1].to_par) +
                             parseInt(this.props.tournament[this.props.tier2].to_par) +
                             parseInt(this.props.tournament[this.props.tier3].to_par) +
                             parseInt(this.props.tournament[this.props.tier4].to_par) +
                             parseInt(this.props.tournament[this.props.tier5].to_par) +
                             parseInt(this.props.tournament[this.props.tier6].to_par)
-                        }</h4>
+                        }</h5>
                     </div>
                 </div>
             </div>
