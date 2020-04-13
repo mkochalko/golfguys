@@ -14,3 +14,7 @@ $tablet-height: 1400px;
 .game-index-ul {
     height: 85vh;
 }
+
+.game-index-ul > li:last-child {
+    border-bottom: 1px solid black;
+}

@@ -44,7 +44,7 @@ $tablet-height: 1400px;
 
 @media screen and (min-width: #{$desktop-width}) {
     .tournament-index-container {
-        width: 40vw;
+        width: 420px;
     }
     
     .tournament-index-ul-title {
@@ -55,6 +55,10 @@ $tablet-height: 1400px;
     .tournament-index-ul {
         height: 85vh;
         overflow: auto;
+    }
+
+    .tournament-index-ul::-webkit-scrollbar {
+        display: none;
     }
 
     .tournament-index-ul-title > h1:first-child {

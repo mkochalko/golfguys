@@ -16,7 +16,6 @@ class GameIndex extends React.Component {
                 <ul className="game-index-ul">
                     {
                         this.props.users.map((user, idx) => {
-                            // let player = 
                             return <li key={idx}>
                                     <GameIndexItem 
                                         user={user}
