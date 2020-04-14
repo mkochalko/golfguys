@@ -13,6 +13,18 @@ class GameIndex extends React.Component {
         if (this.props.users.length === 0) return null  
         return (
             <div className="game-index-container">
+                <ul className='game-index-header'>
+                    <li>Username</li>
+                    <div className='game-index-tier-header'>
+                        <li>Tier 1</li>
+                        <li>Tier 2</li>
+                        <li>Tier 3</li>
+                        <li>Tier 4</li>
+                        <li>Tier 5</li>
+                        <li>Tier 6</li>
+                        <li>Total Score</li>
+                    </div>
+                </ul>
                 <ul className="game-index-ul">
                     {
                         this.props.users.map((user, idx) => {

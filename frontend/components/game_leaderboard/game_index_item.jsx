@@ -37,27 +37,27 @@ class GameIndexItem extends React.Component {
                         toPar={this.props.tournament[this.props.tier1].to_par}
                     />
                     <GameGolferItem 
-                        golfer={this.state.tier1}
+                        golfer={this.state.tier2}
                         today={this.props.tournament[this.props.tier2].to_par === "CUT" ? 8 : this.props.tournament[this.props.tier2].today}
                         toPar={this.props.tournament[this.props.tier2].to_par}
                     />
                     <GameGolferItem 
-                        golfer={this.state.tier1}
+                        golfer={this.state.tier3}
                         today={this.props.tournament[this.props.tier3].to_par === "CUT" ? 8 : this.props.tournament[this.props.tier3].today}
                         toPar={this.props.tournament[this.props.tier3].to_par}
                     />
                     <GameGolferItem 
-                        golfer={this.state.tier1}
+                        golfer={this.state.tier4}
                         today={this.props.tournament[this.props.tier4].to_par === "CUT" ? 8 : this.props.tournament[this.props.tier4].today}
                         toPar={this.props.tournament[this.props.tier4].to_par}
                     />
                     <GameGolferItem 
-                        golfer={this.state.tier1}
+                        golfer={this.state.tier5}
                         today={this.props.tournament[this.props.tier5].to_par === "CUT" ? 8 : this.props.tournament[this.props.tier5].today}
                         toPar={this.props.tournament[this.props.tier5].to_par}
                     />
                     <GameGolferItem 
-                        golfer={this.state.tier1}
+                        golfer={this.state.tier6}
                         today={this.props.tournament[this.props.tier6].to_par === "CUT" ? 8 : this.props.tournament[this.props.tier6].today}
                         toPar={this.props.tournament[this.props.tier6].to_par}
                     />

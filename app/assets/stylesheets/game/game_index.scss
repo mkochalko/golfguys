@@ -18,3 +18,41 @@ $tablet-height: 1400px;
 .game-index-ul > li:last-child {
     border-bottom: 1px solid black;
 }
+
+.game-index-header {
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.game-index-header > li {
+    min-width: 100px;
+    width: 12.5%;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+.game-index-tier-header {
+    display: flex;
+    width: 87.5%;
+}
+
+.game-index-tier-header > li {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    text-align: center;
+    padding: 3px 0;
+    min-width: 100px;
+    width: 14.28%;
+}
+
+.game-index-tier-header > li:last-child {
+    border-right: 1px solid black;
+}
+
+.game-index-header > li:last-child {
+    border-right: 1px solid black;
+}
