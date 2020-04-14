@@ -8,16 +8,17 @@ $tablet-height: 1400px;
 
 .game-index-container {
     width: 65vw;
+    min-width: 850px;
     font-size: 10px;
+    margin: 25px;
 }
 
 .game-index-ul {
     height: 85vh;
+    min-width: 800px;
 }
 
-.game-index-ul > li:last-child {
-    border-bottom: 1px solid black;
-}
+
 
 .game-index-header {
     display: flex;
@@ -30,6 +31,7 @@ $tablet-height: 1400px;
     min-width: 100px;
     width: 12.5%;
     border-top: 1px solid black;
+    border-bottom: 1px solid black;
     border-left: 1px solid black;
     text-align: center;
     padding: 8px;
@@ -37,14 +39,16 @@ $tablet-height: 1400px;
 
 .game-index-tier-header {
     display: flex;
+    min-width: 800px;
     width: 87.5%;
 }
 
 .game-index-tier-header > li {
     border-top: 1px solid black;
+    border-bottom: 1px solid black;
     border-left: 1px solid black;
     text-align: center;
-    padding: 3px 0;
+    padding: 8px;
     min-width: 100px;
     width: 14.28%;
 }

@@ -7,6 +7,10 @@ class GameIndex extends React.Component {
         this.props.getUsers()
     }
 
+    componentDidUpdate(prevProps) {
+        
+    }
+
     render() {
         console.log(this.props.users)
         // console.log(this.props.tournament)
