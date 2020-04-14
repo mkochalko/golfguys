@@ -36,84 +36,31 @@ class GameIndexItem extends React.Component {
                         today={this.props.tournament[this.props.tier1].to_par === "CUT" ? 8 : this.props.tournament[this.props.tier1].today}
                         toPar={this.props.tournament[this.props.tier1].to_par}
                     />
-                    {/* <div className="tier-player-container">
-                        <h4>{this.state.tier1}</h4>
-                        <div className="tier-player-details">
-                            <div className="tier-player-score-header">
-                                <h4>Today</h4>
-                                <h4>To Par</h4>
-                            </div>
-                            <div className="tier-player-score">
-                                <h4>{this.props.tournament[this.props.tier1].today}</h4>
-                                <h4>{this.props.tournament[this.props.tier1].to_par}</h4>
-                            </div>
-                        </div>
-                    </div> */}
-                    <div className="tier-player-container">
-                        <h4>{this.state.tier2}</h4>
-                        <div className="tier-player-details">
-                            <div className="tier-player-score-header">
-                                <h4>Today</h4>
-                                <h4>To Par</h4>
-                            </div>
-                            <div className="tier-player-score">
-                                <h4>{this.props.tournament[this.props.tier2].today}</h4>
-                                <h4>{this.props.tournament[this.props.tier2].to_par}</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="tier-player-container">
-                        <h4>{this.state.tier3}</h4>
-                        <div className="tier-player-details">
-                            <div className="tier-player-score-header">
-                                <h4>Today</h4>
-                                <h4>To Par</h4>
-                            </div>
-                            <div className="tier-player-score">
-                                <h4>{this.props.tournament[this.props.tier3].today}</h4>
-                                <h4>{this.props.tournament[this.props.tier3].to_par}</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="tier-player-container">
-                        <h4>{this.state.tier4}</h4>
-                        <div className="tier-player-details">
-                            <div className="tier-player-score-header">
-                                <h4>Today</h4>
-                                <h4>To Par</h4>
-                            </div>
-                            <div className="tier-player-score">
-                                <h4>{this.props.tournament[this.props.tier4].today}</h4>
-                                <h4>{this.props.tournament[this.props.tier4].to_par}</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="tier-player-container">
-                        <h4>{this.state.tier5}</h4>
-                        <div className="tier-player-details">
-                            <div className="tier-player-score-header">
-                                <h4>Today</h4>
-                                <h4>To Par</h4>
-                            </div>
-                            <div className="tier-player-score">
-                                <h4>{this.props.tournament[this.props.tier5].today}</h4>
-                                <h4>{this.props.tournament[this.props.tier5].to_par}</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="tier-player-container">
-                        <h4>{this.state.tier6}</h4>
-                        <div className="tier-player-details">
-                            <div className="tier-player-score-header">
-                                <h4>Today</h4>
-                                <h4>To Par</h4>
-                            </div>
-                            <div className="tier-player-score">
-                                <h4>{this.props.tournament[this.props.tier6].today}</h4>
-                                <h4>{this.props.tournament[this.props.tier6].to_par}</h4>
-                            </div>
-                        </div>
-                    </div>
+                    <GameGolferItem 
+                        golfer={this.state.tier1}
+                        today={this.props.tournament[this.props.tier2].to_par === "CUT" ? 8 : this.props.tournament[this.props.tier2].today}
+                        toPar={this.props.tournament[this.props.tier2].to_par}
+                    />
+                    <GameGolferItem 
+                        golfer={this.state.tier1}
+                        today={this.props.tournament[this.props.tier3].to_par === "CUT" ? 8 : this.props.tournament[this.props.tier3].today}
+                        toPar={this.props.tournament[this.props.tier3].to_par}
+                    />
+                    <GameGolferItem 
+                        golfer={this.state.tier1}
+                        today={this.props.tournament[this.props.tier4].to_par === "CUT" ? 8 : this.props.tournament[this.props.tier4].today}
+                        toPar={this.props.tournament[this.props.tier4].to_par}
+                    />
+                    <GameGolferItem 
+                        golfer={this.state.tier1}
+                        today={this.props.tournament[this.props.tier5].to_par === "CUT" ? 8 : this.props.tournament[this.props.tier5].today}
+                        toPar={this.props.tournament[this.props.tier5].to_par}
+                    />
+                    <GameGolferItem 
+                        golfer={this.state.tier1}
+                        today={this.props.tournament[this.props.tier6].to_par === "CUT" ? 8 : this.props.tournament[this.props.tier6].today}
+                        toPar={this.props.tournament[this.props.tier6].to_par}
+                    />
                     <div className="tier-player-container">
                         <h4 className="total-score-header">Total Score</h4>
                         <h5 className="user-total-score">{
