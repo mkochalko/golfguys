@@ -29,6 +29,7 @@ class GameIndexItem extends React.Component {
         console.log(this.props.user)
         return (
             <div className="user-li-item">
+                <h4 className="game-place">{this.props.place}</h4>
                 <h4 className="game-index-username">{this.props.user.username}</h4>
                 <div className="user-tier-container">
                     <GameGolferItem 
@@ -62,7 +63,7 @@ class GameIndexItem extends React.Component {
                         toPar={this.props.tournament[this.props.tier6].to_par}
                     />
                     <div className="tier-player-container">
-                        <h4 className="total-score-header">Total Score</h4>
+                        {/* <h4 className="total-score-header">Total Score</h4> */}
                         <h5 className="user-total-score">{
                             this.convertTotalScore(this.props.tournament[this.props.tier1]) +
                             this.convertTotalScore(this.props.tournament[this.props.tier2]) +

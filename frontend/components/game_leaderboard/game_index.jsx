@@ -41,18 +41,33 @@ class GameIndex extends React.Component {
         if (Object.values(this.props.tournament).length === 0) return null  
         return (
             <div className="game-index-container">
-                <ul className='game-index-header'>
-                    <li>Username</li>
+                <div className='game-index-header'>
+                    <h4 id='place-placeholder'></h4>
+                    <h4>Username</h4>
                     <div className='game-index-tier-header'>
-                        <li>Tier 1</li>
-                        <li>Tier 2</li>
-                        <li>Tier 3</li>
-                        <li>Tier 4</li>
-                        <li>Tier 5</li>
-                        <li>Tier 6</li>
-                        <li>Total Score</li>
+                        <div className="tier-player-header">
+                            <h4>Tier 1</h4>
+                        </div>
+                        <div className="tier-player-header">
+                            <h4>Tier 2</h4>
+                        </div>
+                        <div className="tier-player-header">
+                            <h4>Tier 3</h4>
+                        </div>
+                        <div className="tier-player-header">
+                            <h4>Tier 4</h4>
+                        </div>
+                        <div className="tier-player-header">
+                            <h4>Tier 5</h4>
+                        </div>
+                        <div className="tier-player-header">
+                            <h4>Tier 6</h4>
+                        </div>
+                        <div className="score-header">
+                            <h4>Score</h4>
+                        </div>
                     </div>
-                </ul>
+                </div>
                 <ul className="game-index-ul">
                     {
                         this.props.users.map((user) => {
@@ -64,6 +79,7 @@ class GameIndex extends React.Component {
                             }).map((user, idx) => {
                                 return <li key={idx}>
                                         <GameIndexItem 
+                                            place={idx + 1}
                                             user={user}
                                             tournament={this.props.tournament}
                                             tier1={user.tier1}

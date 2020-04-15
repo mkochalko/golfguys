@@ -16,18 +16,20 @@ $tablet-height: 1400px;
 .game-index-ul {
     height: 85vh;
     min-width: 800px;
+    width: 100%;
 }
 
 
 
 .game-index-header {
     display: flex;
+    min-width: 800px;
     width: 100%;
     font-size: 18px;
     font-weight: bold;
 }
 
-.game-index-header > li {
+.game-index-header > h4 {
     min-width: 100px;
     width: 12.5%;
     border-top: 1px solid black;
@@ -37,26 +39,50 @@ $tablet-height: 1400px;
     padding: 8px;
 }
 
-.game-index-tier-header {
-    display: flex;
-    min-width: 800px;
-    width: 87.5%;
+#place-placeholder {
+    min-width: 50px;
+    width: 6.25%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 8px 0 8px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
-.game-index-tier-header > li {
+.game-index-tier-header {
+    display: flex;
+    min-width: 650px;
+    width: 81.25%;
+}
+.tier-player-header {
+    min-width: 100px;
+    width: 26%;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
+}
+.tier-player-header > h4 {
     text-align: center;
-    padding: 8px;
-    min-width: 100px;
-    width: 14.28%;
+    padding: 8px 0;
+    width: 100%;
 }
 
-.game-index-tier-header > li:last-child {
-    border-right: 1px solid black;
+.score-header {
+    border: 1px solid black;
+    border-right: none;
+    min-width: 50px;
+    width: 13%;
 }
 
-.game-index-header > li:last-child {
+.score-header > h4 {
     border-right: 1px solid black;
+    min-width: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
 }
+
+// .game-index-header > h4:last-child {
+//     border-right: 1px solid black;
+// }
