@@ -26,7 +26,7 @@ class GameIndexItem extends React.Component {
 
     render() {
         if (Object.values(this.props.tournament).length === 0 ) return null;
-        // console.log(this.props.tournament[this.props.tier1].today)
+        console.log(this.props.user)
         return (
             <div className="user-li-item">
                 <h4 className="game-index-username">{this.props.user.username}</h4>
