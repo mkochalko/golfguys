@@ -3,12 +3,25 @@ $desktop-width: 500px;
 $tablet-height: 1400px;
 
 @media screen and (max-width: #{$desktop-width - 1px}) {
+    .leaderboard-buttons {
+        display: block;
+    }
+    .body-container {
+        flex-direction: column;
+    }
 
+    .disable {
+        display: none;
+    }
 }
 
-// @media screen and (min-width: #{$desktop-width}) {
+@media screen and (min-width: #{$desktop-width}) {
+    .leaderboard-buttons {
+        display: none;
+    }
 
-// }
-
-
+    .leaderboards {
+        display: flex;
+    }
+}
 
