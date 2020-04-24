@@ -8922,3 +8922,332 @@ Processing by Api::UsersController#index as JSON
 Completed 200 OK in 12ms (Views: 8.9ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/" for ::1 at 2020-04-24 11:35:57 -0700
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mkochalko/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 1259ms (Views: 1256.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 11:35:59 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (29.9ms)
+Completed 200 OK in 44ms (Views: 23.8ms | ActiveRecord: 14.4ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 11:38:27 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 11:38:27 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (2.9ms)
+Completed 200 OK in 13ms (Views: 9.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 11:39:15 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 80ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 11:39:15 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (2.9ms)
+Completed 200 OK in 14ms (Views: 10.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 11:39:44 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 84ms (Views: 81.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 11:39:45 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (2.4ms)
+Completed 200 OK in 14ms (Views: 10.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 11:42:28 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 78ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 11:42:29 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (2.6ms)
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 11:43:07 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 85ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 11:43:07 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (1.8ms)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 11:43:36 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 88ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 11:43:36 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (3.1ms)
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 11:45:01 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 81ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 11:45:01 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (2.9ms)
+Completed 200 OK in 14ms (Views: 10.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 11:45:39 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 85ms (Views: 82.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 11:45:39 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (2.9ms)
+Completed 200 OK in 15ms (Views: 11.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 11:46:11 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 87ms (Views: 85.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 11:46:11 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (2.3ms)
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 11:46:38 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 85ms (Views: 82.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 11:46:38 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (2.1ms)
+Completed 200 OK in 14ms (Views: 10.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 11:47:14 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 86ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 11:47:15 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (3.5ms)
+Completed 200 OK in 15ms (Views: 10.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 12:05:23 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 384ms (Views: 382.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 12:05:24 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (3.9ms)
+Completed 200 OK in 14ms (Views: 10.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 12:05:34 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 87ms (Views: 85.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 12:05:34 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (3.5ms)
+Completed 200 OK in 16ms (Views: 12.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 13:30:03 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 136ms (Views: 133.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 13:30:03 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (3.7ms)
+Completed 200 OK in 14ms (Views: 9.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 13:30:12 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 80ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 13:30:12 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (2.3ms)
+Completed 200 OK in 13ms (Views: 9.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 13:30:22 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Started GET "/" for ::1 at 2020-04-24 13:30:22 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 118ms (Views: 115.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 59ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 13:30:22 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (4.0ms)
+Completed 200 OK in 18ms (Views: 13.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 13:31:00 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 86ms (Views: 83.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 13:31:00 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (2.3ms)
+Completed 200 OK in 13ms (Views: 10.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 13:32:05 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 83ms (Views: 81.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 13:32:05 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (2.5ms)
+Completed 200 OK in 14ms (Views: 10.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-04-24 13:32:18 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 78ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-04-24 13:32:19 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (1.9ms)
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 0.4ms)
+
+

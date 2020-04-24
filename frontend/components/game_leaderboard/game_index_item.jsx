@@ -14,6 +14,7 @@ class GameIndexItem extends React.Component {
             tier6: this.props.tier6,
         }
         this.convertTotalScore = this.convertTotalScore.bind(this)
+        this.mobilePlayerToggle = this.mobilePlayerToggle.bind(this)
     }
 
     convertTotalScore(player) {
@@ -24,14 +25,23 @@ class GameIndexItem extends React.Component {
         }
     }
 
+    mobilePlayerToggle(e) {
+        console.log(e.currentTarget)
+        let player = e.currentTarget;
+        let golfers = player.querySelector('.user-tier-container');
+        player.classList.toggle('user-height')
+        golfers.classList.toggle('hide-players')
+        
+    }
+
     render() {
         if (Object.values(this.props.tournament).length === 0 ) return null;
         console.log(this.props.user)
         return (
-            <div className="user-li-item">
+            <div onClick={this.mobilePlayerToggle} className="user-li-item">
                 <h4 className="game-place">{this.props.place}</h4>
                 <h4 className="game-index-username">{this.props.user.username}</h4>
-                <div className="user-tier-container">
+                <div className="user-tier-container hide-players">
                     <GameGolferItem 
                         golfer={this.state.tier1}
                         today={this.props.tournament[this.props.tier1].to_par === "CUT" ? 8 : this.props.tournament[this.props.tier1].today}

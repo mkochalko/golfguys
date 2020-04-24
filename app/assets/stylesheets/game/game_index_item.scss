@@ -139,7 +139,64 @@ $tablet-height: 1400px;
 
 
 @media screen and (max-width: #{$desktop-width - 1px}) {
+
+    .user-li-item {
+        position: relative;
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+
     .user-tier-container {
+        position: absolute;
+        top: 22px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+
+    .hide-players {
         display: none;
+    }
+
+    .user-height {
+        height: 221px;
+    }
+
+    .game-place {
+        min-width: 0;
+        width: 25vw;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .game-index-username {
+        min-width: 0;
+        width: 50vw;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+
+    }
+
+    .tier-player-score-container {
+        min-width: 0;
+        width: 25vw;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+    }
+
+    .tier-player-container {
+        min-width: 50%;
+    }
+
+    .tier-player-details {
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
 }

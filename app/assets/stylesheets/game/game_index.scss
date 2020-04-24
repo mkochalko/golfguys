@@ -87,23 +87,27 @@ $tablet-height: 1400px;
 
 @media screen and (max-width: #{$desktop-width - 1px}) {
     .game-index-container {
+        min-width: 100%;
         width: 100%;
         margin: 15px auto;
     }
 
     .game-index-header {
-        width: 100%;
+        min-width: 0;
+        width: 90vw;
         margin: 0 auto;
+        // margin-left: 5px;
     }
 
     .game-index-tier-header {
+        min-width: 100%;
         display: none;
     }
 
     #place-placeholder {
         padding: 0;
         padding-top: 8px;
-        width: 20vw;
+        width: 25vw;
     }
 
     #username {
@@ -111,7 +115,7 @@ $tablet-height: 1400px;
     }
 
     .score-header {
-        width: 20vw;
+        width: 25vw;
     }
 
     #place-placeholder:before {
@@ -119,5 +123,11 @@ $tablet-height: 1400px;
         text-align: center;
         left: -5px;
         top: -5px;
+    }
+    
+    .game-index-ul {
+        min-width: 0;
+        width: 90vw;
+        margin: 0 auto;
     }
 }
