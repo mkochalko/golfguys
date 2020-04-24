@@ -2,133 +2,144 @@ $tablet-width: 0px;
 $desktop-width: 500px;
 $tablet-height: 1400px;
 
+@media screen and (min-width: #{$desktop-width}) {
+    .user-li-item {
+        display: flex;
+        min-width: 800px;
+        width: 100%;
+    }
+
+
+    .game-index-username {
+        min-width: 100px;
+        width: 12.5%;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 15px;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .game-place {
+        min-width: 50px;
+        width: 6.25%;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 15px 8px 0 8px;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .user-tier-container {
+        display: flex;
+        min-width: 650px;
+        width: 75%;
+    }
+
+
+    .tier-player-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 100px;
+        width: 26%;
+        height: 55px;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .tier-player-score-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 55px;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        min-width: 50px;
+        width: 6.25%;
+    }
+
+    .tier-player-container > h4 {
+        font-size: 110%;
+        padding: 3px 0;
+        font-weight: bold;
+        // border-top: 1px solid black;
+        // border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        min-width: 100px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .total-score-header {
+        min-width: 100px;
+        width: 100%;
+        border-right: 1px solid black;
+    }
+
+    .tier-player-score-header {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .tier-player-score-header > h4{
+        font-size: 12px;
+        min-width: 50px;
+        width: 100%;
+        padding-top: 2px;
+        text-align: center;
+
+    }
+
+    .tier-player-score-header > h4:last-child{
+        // border-right: 1px solid black;
+        border-left: 1px solid black;
+    }
+
+    .tier-player-score {
+        display: flex;
+        justify-content: space-around;
+        height: 19px;
+    }
+
+    .tier-player-score > h4 {
+        min-width: 50px;
+        width: 100%;
+        text-align: center;
+        padding-top: 2px;
+        font-size: 14px;
+        // border-bottom: 1px solid black;
+    }
+
+    .tier-player-score > h4:last-child {
+        // border-right: 1px solid black;
+        border-left: 1px solid black;
+    }
+
+    .tier-player-details {
+        min-width: 100px;
+        width: 100%;
+    }
+
+    .user-total-score {
+        height: 55px;
+        text-align: center;
+        font-size: 20px;
+        border-right: 1px solid black;
+        // border-top: none;
+        // border-bottom: none;
+        min-width: 50px;
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
+    }
+}
+
+
 @media screen and (max-width: #{$desktop-width - 1px}) {
-
-}
-
-.user-li-item {
-    display: flex;
-    min-width: 800px;
-    width: 100%;
-}
-
-
-.game-index-username {
-    min-width: 100px;
-    width: 12.5%;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 15px;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
-.game-place {
-    min-width: 50px;
-    width: 6.25%;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    padding: 15px 8px 0 8px;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
-.user-tier-container {
-    display: flex;
-    min-width: 650px;
-    width: 81.25%;
-}
-
-
-.tier-player-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: 100px;
-    width: 26%;
-    height: 55px;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
-.tier-player-container:last-child {
-    min-width: 50px;
-    width: 13%;
-}
-
-.tier-player-container > h4 {
-    font-size: 110%;
-    padding: 3px 0;
-    font-weight: bold;
-    // border-top: 1px solid black;
-    // border-left: 1px solid black;
-    border-bottom: 1px solid black;
-    min-width: 100px;
-    width: 100%;
-    text-align: center;
-}
-
-.total-score-header {
-    min-width: 100px;
-    width: 100%;
-    border-right: 1px solid black;
-}
-
-.tier-player-score-header {
-    display: flex;
-    justify-content: space-around;
-}
-
-.tier-player-score-header > h4{
-    font-size: 12px;
-    min-width: 50px;
-    width: 100%;
-    padding-top: 2px;
-    text-align: center;
-
-}
-
-.tier-player-score-header > h4:last-child{
-    // border-right: 1px solid black;
-    border-left: 1px solid black;
-}
-
-.tier-player-score {
-    display: flex;
-    justify-content: space-around;
-    height: 19px;
-}
-
-.tier-player-score > h4 {
-    min-width: 50px;
-    width: 100%;
-    text-align: center;
-    padding-top: 2px;
-    font-size: 14px;
-    // border-bottom: 1px solid black;
-}
-
-.tier-player-score > h4:last-child {
-    // border-right: 1px solid black;
-    border-left: 1px solid black;
-}
-
-.tier-player-details {
-    min-width: 100px;
-    width: 100%;
-}
-
-.user-total-score {
-    height: 55px;
-    text-align: center;
-    font-size: 20px;
-    border-right: 1px solid black;
-    // border-top: none;
-    // border-bottom: none;
-    min-width: 50px;
-    width: 100%;
-    text-align: center;
-    padding-top: 15px;
+    .user-tier-container {
+        display: none;
+    }
 }

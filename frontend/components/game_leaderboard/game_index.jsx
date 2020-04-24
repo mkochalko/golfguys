@@ -43,7 +43,7 @@ class GameIndex extends React.Component {
             <div className="game-index-container">
                 <div className='game-index-header'>
                     <h4 id='place-placeholder'></h4>
-                    <h4>Username</h4>
+                    <h4 id='username'>Username</h4>
                     <div className='game-index-tier-header'>
                         <div className="tier-player-header">
                             <h4>Tier 1</h4>
@@ -63,9 +63,9 @@ class GameIndex extends React.Component {
                         <div className="tier-player-header">
                             <h4>Tier 6</h4>
                         </div>
-                        <div className="score-header">
-                            <h4>Score</h4>
-                        </div>
+                    </div>
+                    <div className="score-header">
+                        <h4>Score</h4>
                     </div>
                 </div>
                 <ul className="game-index-ul">

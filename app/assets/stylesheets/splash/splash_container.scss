@@ -5,7 +5,19 @@ $tablet-height: 1400px;
 @media screen and (max-width: #{$desktop-width - 1px}) {
     
     .leaderboard-buttons {
-        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .leaderboard-buttons > button {
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 45vw;
+        text-align: center;
+        padding: 15px;
+        margin-top: 10px;
+        font-size: 24px;
     }
     .body-container {
         flex-direction: column;

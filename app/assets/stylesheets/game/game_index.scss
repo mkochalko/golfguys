@@ -2,9 +2,7 @@ $tablet-width: 0px;
 $desktop-width: 500px;
 $tablet-height: 1400px;
 
-@media screen and (max-width: #{$desktop-width - 1px}) {
 
-}
 
 .game-index-container {
     width: 65vw;
@@ -53,7 +51,7 @@ $tablet-height: 1400px;
 .game-index-tier-header {
     display: flex;
     min-width: 650px;
-    width: 81.25%;
+    width: 75%;
 }
 .tier-player-header {
     min-width: 100px;
@@ -72,7 +70,7 @@ $tablet-height: 1400px;
     border: 1px solid black;
     border-right: none;
     min-width: 50px;
-    width: 13%;
+    width: 6.25%;
 }
 
 .score-header > h4 {
@@ -86,3 +84,40 @@ $tablet-height: 1400px;
 // .game-index-header > h4:last-child {
 //     border-right: 1px solid black;
 // }
+
+@media screen and (max-width: #{$desktop-width - 1px}) {
+    .game-index-container {
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .game-index-header {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .game-index-tier-header {
+        display: none;
+    }
+
+    #place-placeholder {
+        padding: 0;
+        padding-top: 8px;
+        width: 20vw;
+    }
+
+    #username {
+        width: 50vw;
+    }
+
+    .score-header {
+        width: 20vw;
+    }
+
+    #place-placeholder:before {
+        content: 'Place';
+        text-align: center;
+        left: -5px;
+        top: -5px;
+    }
+}

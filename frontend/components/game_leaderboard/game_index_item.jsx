@@ -62,17 +62,10 @@ class GameIndexItem extends React.Component {
                         today={this.props.tournament[this.props.tier6].to_par === "CUT" ? 8 : this.props.tournament[this.props.tier6].today}
                         toPar={this.props.tournament[this.props.tier6].to_par}
                     />
-                    <div className="tier-player-container">
-                        {/* <h4 className="total-score-header">Total Score</h4> */}
-                        <h5 className="user-total-score">{
-                            this.convertTotalScore(this.props.tournament[this.props.tier1]) +
-                            this.convertTotalScore(this.props.tournament[this.props.tier2]) +
-                            this.convertTotalScore(this.props.tournament[this.props.tier3]) +
-                            this.convertTotalScore(this.props.tournament[this.props.tier4]) +
-                            this.convertTotalScore(this.props.tournament[this.props.tier5]) +
-                            this.convertTotalScore(this.props.tournament[this.props.tier6])
-                        }</h5>
-                    </div>
+                </div>
+                <div className="tier-player-score-container">
+                    {/* <h4 className="total-score-header">Total Score</h4> */}
+                    <h5 className="user-total-score">{this.props.score}</h5>
                 </div>
             </div>
         )
