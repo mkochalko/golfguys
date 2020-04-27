@@ -42,6 +42,10 @@ class GameIndexItem extends React.Component {
                 <h4 className="game-place">{this.props.place}</h4>
                 <h4 className="game-index-username">{this.props.user.username}</h4>
                 <div className="user-tier-container hide-players">
+                    <div className="mobile-player-score-title">
+                        <h4>Today</h4>
+                        <h4>Total</h4>
+                    </div>
                     <GameGolferItem 
                         golfer={this.state.tier1}
                         today={this.props.tournament[this.props.tier1].to_par === "CUT" ? 8 : this.props.tournament[this.props.tier1].today}
