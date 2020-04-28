@@ -135,6 +135,10 @@ $tablet-height: 1400px;
         text-align: center;
         padding-top: 15px;
     }
+
+    .mobile-player-score-title {
+        display: none;
+    }
 }
 
 
@@ -147,11 +151,14 @@ $tablet-height: 1400px;
         width: 100%;
         font-size: 18px;
         text-align: center;
+        height: 23px;
+        transition: ease-in-out .5s height;
     }
 
     .user-tier-container {
         position: absolute;
         top: 22px;
+        height: 198px;
         // display: flex;
         // flex-wrap: wrap;
         background-color: white;
@@ -166,6 +173,7 @@ $tablet-height: 1400px;
 
     .user-height {
         height: 221px;
+        transition: height 1s;
     }
 
     .game-place {
@@ -195,6 +203,7 @@ $tablet-height: 1400px;
         display: flex;
         flex-direction: row;
         width: 100%;
+        padding: 3px 0;
     }
 
     .tier-player-container > h4 {

@@ -29,8 +29,18 @@ class GameIndexItem extends React.Component {
         console.log(e.currentTarget)
         let player = e.currentTarget;
         let golfers = player.querySelector('.user-tier-container');
-        player.classList.toggle('user-height')
-        golfers.classList.toggle('hide-players')
+        // player.classList.toggle('user-height')
+        console.log(player.style.height) 
+        if (player.style.height === '221px') {
+            player.style.height = '23px'
+            golfers.classList.toggle('hide-players')
+        } else {
+            player.style.height = '221px'
+            setTimeout(() => {
+                golfers.classList.toggle('hide-players')
+            }, 500)
+        }
+        
         
     }
 
