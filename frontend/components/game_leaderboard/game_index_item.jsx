@@ -26,19 +26,18 @@ class GameIndexItem extends React.Component {
     }
 
     mobilePlayerToggle(e) {
-        console.log(e.currentTarget)
         let player = e.currentTarget;
         let golfers = player.querySelector('.user-tier-container');
-        // player.classList.toggle('user-height')
-        console.log(player.style.height) 
-        if (player.style.height === '221px') {
-            player.style.height = '23px'
-            golfers.classList.toggle('hide-players')
-        } else {
-            player.style.height = '221px'
-            setTimeout(() => {
+        if (window.screen.width < 500) {
+            if (player.style.height === '221px') {
+                player.style.height = '23px'
                 golfers.classList.toggle('hide-players')
-            }, 500)
+            } else {
+                player.style.height = '221px'
+                setTimeout(() => {
+                    golfers.classList.toggle('hide-players')
+                }, 400)
+            }
         }
         
         
@@ -46,7 +45,7 @@ class GameIndexItem extends React.Component {
 
     render() {
         if (Object.values(this.props.tournament).length === 0 ) return null;
-        console.log(this.props.user)
+        // console.log(this.props.user)
         return (
             <div onClick={this.mobilePlayerToggle} className="user-li-item">
                 <h4 className="game-place">{this.props.place}</h4>

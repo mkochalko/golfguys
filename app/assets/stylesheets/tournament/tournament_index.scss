@@ -7,12 +7,14 @@ $tablet-height: 1400px;
 
 
 @media screen and (max-width: #{$desktop-width - 1px}) {
-    
+    .tournament-index-container {
+        padding-top: 15px;
+    }
     
     .tournament-index-ul-title {
         display: flex;
         text-align: center;
-        font-size: 20px;
+        font-size: 14px;
     }
 
     .tournament-index-ul {
@@ -25,7 +27,7 @@ $tablet-height: 1400px;
     }
 
     .tournament-index-ul-title > h1:nth-child(2) {
-        min-width: 30%;
+        min-width: 35%;
     }
 
     .tournament-index-ul-title > h1:nth-child(3) {

@@ -35,7 +35,7 @@ class GameIndex extends React.Component {
     }
 
     render() {
-        console.log(this.props.users)
+        // console.log(this.props.users)
         // console.log(this.props.tournament)
         if (this.props.users.length === 0) return null  
         if (Object.values(this.props.tournament).length === 0) return null  
@@ -72,7 +72,6 @@ class GameIndex extends React.Component {
                     {
                         this.props.users.map((user) => {
                             user.score = this.calculateTotalScore(user)
-                            console.log(user)
                             return user
                             }).sort((a, b) => {
                                 return a.score - b.score
