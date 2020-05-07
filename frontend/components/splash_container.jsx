@@ -27,7 +27,6 @@ class SplashContainer extends React.Component {
         } else {
             golfGuysButton.disabled = false;
             mastersButton.disabled = true;
-
         }
         golfGuys.classList.toggle('disable')
         masters.classList.toggle('disable')
