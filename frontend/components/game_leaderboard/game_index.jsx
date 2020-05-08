@@ -23,8 +23,6 @@ class GameIndex extends React.Component {
         players.push(this.props.tournament[user.tier6]);
         for (let i = 0; i < players.length; i++) {
             let player = players[i]
-            // console.log(this.props.tournament)
-            // console.log(player)
             if (player.to_par === 'CUT') {
                 sum += parseInt(player.r1) + parseInt(player.r2) + 160 - 288;
             } else {
@@ -35,8 +33,6 @@ class GameIndex extends React.Component {
     }
 
     render() {
-        // console.log(this.props.users)
-        // console.log(this.props.tournament)
         if (this.props.users.length === 0) return null  
         if (Object.values(this.props.tournament).length === 0) return null  
         return (
