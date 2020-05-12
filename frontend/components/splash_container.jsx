@@ -36,6 +36,7 @@ class SplashContainer extends React.Component {
 
         return (
             <div className="body-container">
+                <button>Play Now!</button>
                 <div className='leaderboard-buttons'>
                     <button className="masters-button" onClick={this.toggleScores}>Masters</button>
                     <button className="golf-guys-button" onClick={this.toggleScores}>Golf Guys</button>
