@@ -13,10 +13,9 @@ $tablet-height: 1400px;
     .leaderboard-buttons > button {
         border: 1px solid black;
         border-radius: 5px;
-        width: 45vw;
+        width: 46vw;
         text-align: center;
-        padding: 15px;
-        margin-top: 10px;
+        padding: 5px 15px;
         font-size: 24px;
     }
     .body-container {
@@ -26,9 +25,33 @@ $tablet-height: 1400px;
     .disable {
         display: none;
     }
+
+    .play-now-button {
+        width: 96vw;
+        margin: 5px auto;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 3px;
+        font-size: 24px;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: #{$desktop-width}) {
+    .body-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .play-now-button {
+        border: 1px solid black;
+        border-radius: 15px;
+        margin: 10px auto;
+        margin-left: 10vw;
+        padding: 5px 15px;
+        font-size: 25px;
+    }
+
     .leaderboard-buttons {
         display: none;
     }
