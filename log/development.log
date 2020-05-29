@@ -12659,3 +12659,4 @@ Processing by Api::PlayersController#index as JSON
 Completed 200 OK in 18ms (Views: 13.9ms | ActiveRecord: 0.9ms)
 
 
+  [1m[36mPlayer Load (0.7ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m

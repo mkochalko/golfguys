@@ -11,8 +11,10 @@ class PlayNowIndex extends React.Component {
             console.log(playersObj.players)
             let playersArr = [];
             for (let player of Object.values(playersObj.players)) {
-                console.log(player)
+                playersArr.push([player.name, player.odds])
             }
+            playersArr.sort((a, b) => b[1] - a[1])
+            console.log(playersArr)
         })
     }
 
