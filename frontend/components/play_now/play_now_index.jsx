@@ -6,6 +6,16 @@ class PlayNowIndex extends React.Component {
         super(props)
     }
 
+    componentDidMount() {
+        this.props.getPlayers().then(playersObj => {
+            console.log(playersObj.players)
+            let playersArr = [];
+            for (let player of Object.values(playersObj.players)) {
+                console.log(player)
+            }
+        })
+    }
+
     render() {
 
         return (
