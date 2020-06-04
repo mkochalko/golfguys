@@ -4,6 +4,8 @@ import Navbar from '../navbar';
 class PlayNowIndex extends React.Component {
     constructor(props) {
         super(props)
+
+        this.sortedPlayers = []
     }
 
     componentDidMount() {
@@ -15,15 +17,26 @@ class PlayNowIndex extends React.Component {
             }
             playersArr.sort((a, b) => b[1] - a[1])
             console.log(playersArr)
+            this.setState(() => { this.sortedPlayers = playersArr }, console.log(this.sortedPlayers))
         })
     }
 
-    render() {
+    
 
+    render() {
+        console.log(this.sortedPlayers)
         return (
             <div>
                 <Navbar />
                 <div>Play Now!</div>
+                <div>
+                    {
+                        this.sortedPlayers.length ? (
+                        this.sortedPlayers.map((player, key) => {
+                            return <li>{player[0]}</li>
+                        })) : null
+                    }
+                </div>
             </div>
         )
     }
