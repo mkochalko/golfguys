@@ -13,7 +13,7 @@ class EntryTier extends React.Component {
                 <ul>
                     {
                         this.props.tier.map((player, idx) => {
-                            return <li key={idx}>{player[0]}</li>
+                            return <li onClick={this.props.click} id={this.props.idx} key={idx}>{player[0]}</li>
                         })
                     }
                 </ul>

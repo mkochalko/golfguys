@@ -13371,3 +13371,1102 @@ Processing by Api::PlayersController#index as JSON
 Completed 200 OK in 18ms (Views: 14.8ms | ActiveRecord: 0.5ms)
 
 
+Started GET "/" for ::1 at 2020-06-11 17:26:13 -0700
+  [1m[35m (8.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mkochalko/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1816ms (Views: 1813.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users" for ::1 at 2020-06-11 17:26:15 -0700
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (33.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/api/users/index.json.jbuilder:1
+  Rendered api/users/index.json.jbuilder (81.1ms)
+Completed 200 OK in 100ms (Views: 37.9ms | ActiveRecord: 55.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 17:26:20 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.6ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (17.2ms)
+Completed 200 OK in 33ms (Views: 19.0ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 17:32:47 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 456ms (Views: 453.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 17:32:48 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.8ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (5.9ms)
+Completed 200 OK in 18ms (Views: 13.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 17:48:57 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 440ms (Views: 436.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 17:48:58 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.4ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (10.3ms)
+Completed 200 OK in 27ms (Views: 22.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 17:49:32 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 380ms (Views: 377.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 17:49:33 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.4ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (10.2ms)
+Completed 200 OK in 27ms (Views: 20.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 17:49:39 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 56ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 17:49:40 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.7ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (7.7ms)
+Completed 200 OK in 20ms (Views: 16.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 17:50:25 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 363ms (Views: 361.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 17:50:26 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (5.4ms)
+Completed 200 OK in 22ms (Views: 17.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 17:51:03 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 354ms (Views: 351.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 17:51:04 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.1ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (7.7ms)
+Completed 200 OK in 23ms (Views: 19.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 17:51:15 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 253ms (Views: 250.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 17:51:15 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (3.0ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (8.1ms)
+Completed 200 OK in 21ms (Views: 15.6ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 17:51:22 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 266ms (Views: 263.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 17:51:23 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.0ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (8.6ms)
+Completed 200 OK in 23ms (Views: 19.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 17:53:40 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 354ms (Views: 351.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 17:53:41 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.6ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (10.2ms)
+Completed 200 OK in 23ms (Views: 19.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 17:54:41 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 384ms (Views: 381.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 17:54:41 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.1ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (5.7ms)
+Completed 200 OK in 18ms (Views: 14.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 17:54:54 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 374ms (Views: 370.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 17:54:54 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (6.3ms)
+Completed 200 OK in 24ms (Views: 20.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 17:55:03 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 243ms (Views: 240.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 17:55:04 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.7ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (4.8ms)
+Completed 200 OK in 18ms (Views: 14.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 17:55:21 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 351ms (Views: 349.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 17:55:21 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.1ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (5.9ms)
+Completed 200 OK in 19ms (Views: 14.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 17:56:45 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 370ms (Views: 367.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 17:56:46 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.7ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (7.8ms)
+Completed 200 OK in 21ms (Views: 17.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 17:58:33 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 376ms (Views: 373.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 17:58:33 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.0ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (5.5ms)
+Completed 200 OK in 18ms (Views: 13.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 17:58:51 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 45ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 17:58:51 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.1ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (8.0ms)
+Completed 200 OK in 24ms (Views: 20.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 17:59:25 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 374ms (Views: 372.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 17:59:26 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.8ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (5.9ms)
+Completed 200 OK in 21ms (Views: 16.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 17:59:59 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 370ms (Views: 367.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:00:00 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.9ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (5.7ms)
+Completed 200 OK in 23ms (Views: 18.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:00:13 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 371ms (Views: 369.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:00:13 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.7ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (6.2ms)
+Completed 200 OK in 21ms (Views: 18.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:01:29 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 377ms (Views: 375.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:01:30 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.0ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (7.7ms)
+Completed 200 OK in 22ms (Views: 18.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:01:41 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 57ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:01:41 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (2.0ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (14.7ms)
+Completed 200 OK in 31ms (Views: 26.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:03:53 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 338ms (Views: 336.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:03:54 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (12.9ms)
+Completed 200 OK in 27ms (Views: 23.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:04:01 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 59ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:04:02 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (7.5ms)
+Completed 200 OK in 19ms (Views: 15.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:04:25 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 465ms (Views: 463.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:04:26 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.0ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (7.3ms)
+Completed 200 OK in 21ms (Views: 16.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:05:03 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 347ms (Views: 345.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:05:04 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.6ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (6.2ms)
+Completed 200 OK in 22ms (Views: 18.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:06:58 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 389ms (Views: 386.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:06:59 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.6ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (4.9ms)
+Completed 200 OK in 21ms (Views: 17.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:07:08 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 42ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:07:09 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (4.4ms)
+Completed 200 OK in 14ms (Views: 11.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:07:32 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 337ms (Views: 335.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:07:33 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.0ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (12.2ms)
+Completed 200 OK in 25ms (Views: 21.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:08:03 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 345ms (Views: 343.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:08:04 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.0ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (7.8ms)
+Completed 200 OK in 21ms (Views: 16.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:08:22 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 373ms (Views: 371.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:08:23 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.2ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (6.6ms)
+Completed 200 OK in 19ms (Views: 15.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:09:24 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 334ms (Views: 332.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:09:24 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (5.8ms)
+Completed 200 OK in 20ms (Views: 16.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:10:36 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 357ms (Views: 354.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:10:37 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.3ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (6.0ms)
+Completed 200 OK in 17ms (Views: 13.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:10:55 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 361ms (Views: 359.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:10:56 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.1ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (11.6ms)
+Completed 200 OK in 33ms (Views: 25.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:11:21 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 339ms (Views: 337.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:11:21 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (7.1ms)
+Completed 200 OK in 20ms (Views: 16.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:11:55 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 353ms (Views: 351.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:11:56 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.0ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (8.9ms)
+Completed 200 OK in 22ms (Views: 17.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:12:16 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 386ms (Views: 383.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:12:17 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (7.6ms)
+Completed 200 OK in 23ms (Views: 19.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:13:27 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 53ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:13:27 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.8ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (7.2ms)
+Completed 200 OK in 18ms (Views: 13.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:13:41 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 354ms (Views: 352.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:13:42 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.9ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (11.4ms)
+Completed 200 OK in 24ms (Views: 20.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:14:25 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 355ms (Views: 353.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:14:25 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.2ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (6.3ms)
+Completed 200 OK in 20ms (Views: 16.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:14:34 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 374ms (Views: 372.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:14:35 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.9ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (5.9ms)
+Completed 200 OK in 18ms (Views: 14.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:14:48 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 380ms (Views: 377.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:14:49 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.0ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (6.3ms)
+Completed 200 OK in 23ms (Views: 19.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:15:30 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 344ms (Views: 341.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:15:31 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.0ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (8.2ms)
+Completed 200 OK in 23ms (Views: 18.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:16:14 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 374ms (Views: 371.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:16:15 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.7ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (7.9ms)
+Completed 200 OK in 19ms (Views: 15.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:16:41 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 359ms (Views: 356.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:16:41 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.0ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (8.3ms)
+Completed 200 OK in 20ms (Views: 16.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:17:02 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 461ms (Views: 460.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:17:03 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (7.5ms)
+Completed 200 OK in 22ms (Views: 17.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:18:36 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 380ms (Views: 378.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:18:37 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.7ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (8.1ms)
+Completed 200 OK in 21ms (Views: 18.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:21:17 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 368ms (Views: 366.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:21:18 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.1ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (5.3ms)
+Completed 200 OK in 21ms (Views: 16.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:21:44 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 397ms (Views: 394.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:21:45 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.6ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (5.0ms)
+Completed 200 OK in 19ms (Views: 15.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:23:07 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 245ms (Views: 243.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:23:08 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (5.5ms)
+Completed 200 OK in 20ms (Views: 15.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:23:20 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 354ms (Views: 352.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:23:21 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.4ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (7.4ms)
+Completed 200 OK in 21ms (Views: 17.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:24:03 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 37ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:24:04 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (7.5ms)
+Completed 200 OK in 17ms (Views: 14.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:24:12 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 364ms (Views: 361.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:24:12 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (5.1ms)
+Completed 200 OK in 18ms (Views: 14.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:24:48 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 351ms (Views: 349.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:24:48 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.9ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (7.7ms)
+Completed 200 OK in 22ms (Views: 16.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:25:10 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 379ms (Views: 376.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:25:11 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.7ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (5.0ms)
+Completed 200 OK in 17ms (Views: 13.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:25:33 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 354ms (Views: 351.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:25:34 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.8ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (4.6ms)
+Completed 200 OK in 19ms (Views: 15.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:26:08 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 365ms (Views: 363.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:26:09 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.3ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (5.9ms)
+Completed 200 OK in 21ms (Views: 16.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:26:54 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 372ms (Views: 369.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:26:54 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (3.3ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (10.5ms)
+Completed 200 OK in 28ms (Views: 20.4ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:27:21 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 367ms (Views: 364.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:27:22 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.8ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (8.9ms)
+Completed 200 OK in 21ms (Views: 18.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:31:39 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 364ms (Views: 362.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:31:40 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (6.7ms)
+Completed 200 OK in 18ms (Views: 13.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:32:07 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:32:07 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (4.3ms)
+Completed 200 OK in 15ms (Views: 11.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:32:28 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 383ms (Views: 380.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:32:29 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.0ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (5.5ms)
+Completed 200 OK in 18ms (Views: 14.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:32:39 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 405ms (Views: 402.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:32:40 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (4.4ms)
+Completed 200 OK in 14ms (Views: 10.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:33:10 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 372ms (Views: 369.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:33:11 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (3.8ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (11.0ms)
+Completed 200 OK in 28ms (Views: 22.1ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:33:30 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 355ms (Views: 352.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:33:30 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (5.2ms)
+Completed 200 OK in 19ms (Views: 15.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:33:42 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 429ms (Views: 425.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:33:43 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.5ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (6.5ms)
+Completed 200 OK in 22ms (Views: 17.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:33:52 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 365ms (Views: 362.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:33:53 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (1.4ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (11.2ms)
+Completed 200 OK in 24ms (Views: 19.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2020-06-11 18:34:45 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 537ms (Views: 534.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/players" for ::1 at 2020-06-11 18:34:46 -0700
+Processing by Api::PlayersController#index as JSON
+  Rendering api/players/index.json.jbuilder
+  [1m[36mPlayer Load (0.6ms)[0m  [1m[34mSELECT "players".* FROM "players"[0m
+  ↳ app/views/api/players/index.json.jbuilder:1
+  Rendered api/players/index.json.jbuilder (5.3ms)
+Completed 200 OK in 16ms (Views: 13.1ms | ActiveRecord: 0.6ms)
+
+

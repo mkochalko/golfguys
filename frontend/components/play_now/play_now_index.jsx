@@ -6,10 +6,27 @@ class PlayNowIndex extends React.Component {
         super(props)
 
         this.state = {
-            sortedPlayers: []
+            sortedPlayers: [],
+            username: '',
+            'tier1': '',
+            'tier2': '',
+            'tier3': '',
+            'tier4': '',
+            'tier5': '',
+            'tier6': '',
         }
+        // this.tiers = {
+        //     '1': this.state.tier1,
+        //     '2': this.state.tier2,
+        //     '3': this.state.tier3,
+        //     '4': this.state.tier4,
+        //     '5': this.state.tier5,
+        //     '6': this.state.tier6
+        // }
 
         this.setTiers = this.setTiers.bind(this);
+        this.updateTiers = this.updateTiers.bind(this);
+        this.updateUsername = this.updateUsername.bind(this);
     }
 
     componentDidMount() {
@@ -35,6 +52,17 @@ class PlayNowIndex extends React.Component {
         return tiers;
     }
     
+    updateTiers(e) {
+        let tier = `tier${e.currentTarget.id}`
+        let golfer = e.currentTarget.innerHTML
+        this.setState({[tier]: golfer}, () => console.log(this.state))
+    }
+
+    updateUsername(form) {
+        return (e) => {
+            this.setState({[form]: e.currentTarget.value}, () => console.log(this.state.username))
+        }
+    }
 
     render() {
         return (
@@ -42,13 +70,21 @@ class PlayNowIndex extends React.Component {
                 <Navbar />
                 <div>Play Now!</div>
                 <div>
+                    <h3>Please Enter your Username</h3>
+                    <input 
+                        type="text" 
+                        onChange={this.updateUsername('username')}
+                    />
+                </div>
+                <div>
                     {
                         this.state.sortedPlayers.length ? (
                         this.setTiers(this.state.sortedPlayers).map((tier, key) => {
-                            return <EntryTier key={key} idx={key + 1} tier={tier}/>
+                            return <EntryTier click={this.updateTiers} key={key} idx={key + 1} tier={tier}/>
                         })) : null
                     }
                 </div>
+                <button type="submit">Create Lineup</button>
             </div>
         )
     }
