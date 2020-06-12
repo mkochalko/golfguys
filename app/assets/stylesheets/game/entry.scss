@@ -3,4 +3,19 @@
 
 .entry-player-tier {
     border: 1px solid black;
+    width: 33vw;
+    margin: 0 auto;
+}
+
+.entry-tier-select-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.entry-player-tier:focus {
+    background-color: blue;
+}
+
+.selected {
+    background: blue;
 }

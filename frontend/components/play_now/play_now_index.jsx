@@ -55,13 +55,17 @@ class PlayNowIndex extends React.Component {
     updateTiers(e) {
         let tier = `tier${e.currentTarget.id}`
         let golfer = e.currentTarget.innerHTML
-        this.setState({[tier]: golfer}, () => console.log(this.state))
+        this.setState({[tier]: golfer})
     }
 
     updateUsername(form) {
         return (e) => {
-            this.setState({[form]: e.currentTarget.value}, () => console.log(this.state.username))
+            this.setState({[form]: e.currentTarget.value})
         }
+    }
+
+    enterLineup() {
+        
     }
 
     render() {
@@ -76,7 +80,7 @@ class PlayNowIndex extends React.Component {
                         onChange={this.updateUsername('username')}
                     />
                 </div>
-                <div>
+                <div className="entry-tier-select-container">
                     {
                         this.state.sortedPlayers.length ? (
                         this.setTiers(this.state.sortedPlayers).map((tier, key) => {
