@@ -13,9 +13,13 @@
 }
 
 .entry-player-tier:focus {
-    background-color: blue;
+    // background-color: blue;
 }
 
 .selected {
     background: blue;
+}
+
+.tiers-selections-container {
+    display: flex;
 }

@@ -8,12 +8,12 @@ class PlayNowIndex extends React.Component {
         this.state = {
             sortedPlayers: [],
             username: '',
-            'tier1': '',
-            'tier2': '',
-            'tier3': '',
-            'tier4': '',
-            'tier5': '',
-            'tier6': '',
+            'tier1': 'Not Selected',
+            'tier2': 'Not Selected',
+            'tier3': 'Not Selected',
+            'tier4': 'Not Selected',
+            'tier5': 'Not Selected',
+            'tier6': 'Not Selected',
         }
         // this.tiers = {
         //     '1': this.state.tier1,
@@ -80,13 +80,25 @@ class PlayNowIndex extends React.Component {
                         onChange={this.updateUsername('username')}
                     />
                 </div>
-                <div className="entry-tier-select-container">
-                    {
-                        this.state.sortedPlayers.length ? (
-                        this.setTiers(this.state.sortedPlayers).map((tier, key) => {
-                            return <EntryTier click={this.updateTiers} key={key} idx={key + 1} tier={tier}/>
-                        })) : null
-                    }
+                <div className="tiers-selections-container">
+                    <div className="entry-tier-select-container">
+                        {
+                            this.state.sortedPlayers.length ? (
+                            this.setTiers(this.state.sortedPlayers).map((tier, key) => {
+                                return <EntryTier click={this.updateTiers} key={key} idx={key + 1} tier={tier}/>
+                            })) : null
+                        }
+                    </div>
+                    <div>
+                        <ul>
+                            <li>{this.state.tier1}</li>
+                            <li>{this.state.tier2}</li>
+                            <li>{this.state.tier3}</li>
+                            <li>{this.state.tier4}</li>
+                            <li>{this.state.tier5}</li>
+                            <li>{this.state.tier6}</li>
+                        </ul>
+                    </div>
                 </div>
                 <button type="submit">Create Lineup</button>
             </div>

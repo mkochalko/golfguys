@@ -9,7 +9,8 @@ class EntryTier extends React.Component {
 
     highlightPlayer(e) {
         let li = e.currentTarget.getElementsByTagName('li')
-
+        console.log(li)
+        console.log(this.drag)
         for (let i = 0; i < li.length; i++) {
             let liElement = li[i];
             liElement.classList.remove('selected')
@@ -21,7 +22,7 @@ class EntryTier extends React.Component {
     render() {
         return (
             <div className="entry-player-tier">
-                <ul onClick={this.highlightPlayer}>
+                <ul onMouseUp={this.highlightPlayer}>
                     {
                         this.props.tier.map((player, idx) => {
                             return (
