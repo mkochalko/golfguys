@@ -1,9 +1,11 @@
-
-
-
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #006747;
+}
 .entry-player-tier {
-    border: 1px solid black;
-    width: 33vw;
+    border: 1px solid #fce300;
+    width: 25vw;
     margin: 0 auto;
 }
 
@@ -17,9 +19,40 @@
 }
 
 .selected {
-    background: blue;
+    background: #174038;
 }
 
 .tiers-selections-container {
     display: flex;
+    justify-content: center;
+}
+
+.selected-players-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.play-container {
+    text-align: center;
+    background-color: #006747;
+    color: #fce300;
+}
+
+.play-container > h2 {
+    font-size: 28px;
+    padding: 20px;
+}
+
+.lineup-ul {
+    margin-left: 15px;
+}
+
+.username-input {
+    border: 1px solid #fce300;
+    color: black;
+}
+
+.username-input-div {
+    margin-bottom: 20px;
 }

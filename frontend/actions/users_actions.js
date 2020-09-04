@@ -7,6 +7,7 @@ const receiveUsers = users => ({
     users
 })
 
+
 export const getUsersInfo = () => dispatch => (
     getUsers().then(users => dispatch(receiveUsers(users)))
 )

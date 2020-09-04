@@ -5,3 +5,4 @@ export const getPlayers = () => (
         url: '/api/players'
     })
 )
+

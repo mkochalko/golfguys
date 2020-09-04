@@ -1,6 +1,8 @@
 class Api::UsersController < ApplicationController
     def index
         @users = User.all
+        # debugger
+        render :index
     end
 
     def show
@@ -11,7 +13,7 @@ class Api::UsersController < ApplicationController
         @user = User.new(user_params)
 
         if @user.save!
-            render :index
+            redirect_to '/api/users'
         else 
             render json:  @user.errors.full_messages, status: 422
         end

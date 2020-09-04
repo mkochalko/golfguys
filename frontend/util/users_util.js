@@ -5,3 +5,11 @@ export const getUsers = () => (
         url: '/api/users'
     })
 )
+
+export const createLineup = (user) => (
+    $.ajax({
+        method: 'POST',
+        url: '/api/users',
+        data: { user }
+    })
+)

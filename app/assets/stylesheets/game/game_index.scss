@@ -12,9 +12,10 @@ $tablet-height: 1400px;
 }
 
 .game-index-ul {
-    height: 85vh;
+    height: 75vh;
     min-width: 800px;
     width: 100%;
+    overflow: scroll;
 }
 
 

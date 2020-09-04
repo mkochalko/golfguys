@@ -58,6 +58,8 @@ $tablet-height: 1400px;
 
     .leaderboards {
         display: flex;
+        height: 95%;
+        // overflow: hidden;
     }
 }
 
